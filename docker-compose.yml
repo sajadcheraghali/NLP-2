@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  ocr:
+    build: .
+    container_name: docling_tesseract_ocr
+    volumes:
+      - ./input_pdfs:/app/input_pdfs
+      - ./output_texts:/app/output_texts

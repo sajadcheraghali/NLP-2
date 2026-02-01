@@ -1,0 +1,6 @@
+docling
+pytesseract
+pdf2image
+pillow
+opencv-python
+pandas
